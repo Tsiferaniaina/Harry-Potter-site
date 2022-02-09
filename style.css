@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@900&family=Quintessential&display=swap');
+
+
+body{
+
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(19, 18, 18);
+}
+nav {
+    position: sticky;
+}
+header {
+    background: url('image/patronux1.jpg');
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    color: #ffffff;
+    padding: 120px;
+    font-family: 'Quintessential', cursive;
+}
+body .aeration {
+    background-color: inherit;
+    text-align: center;
+    color:#fff;
+    padding-bottom:20px ;
+    font-family: 'Quintessential', cursive;
+
+}
+footer{
+    background-color: inherit;
+    height: 40px;
+    margin-top: 70px;
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+}
+@media screen and (max-width:680px){
+    header {
+        padding: 20px;
+    }
+}
+  
